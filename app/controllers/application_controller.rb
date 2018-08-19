@@ -1,5 +1,4 @@
 class ApplicationController < ActionController::Base
-  def main
-    head :no_content
-  end
+  protect_from_forgery with: :exception
+  prepend_view_path Rails.root.join("app/client/packs")
 end

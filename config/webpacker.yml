@@ -17,7 +17,7 @@ default: &default
     - .js
     - .sass
     - .scss
-    - .css
+    - .cssw
     - .module.sass
     - .module.scss
     - .module.css
