@@ -1,0 +1,24 @@
+.message {
+  margin: 12px 6px;
+}
+
+.message:first-child {
+  margin-top: 0;
+}
+
+.message:last-child {
+  margin-bottom: 0;
+}
+
+.message-author {
+  font-weight: bold;
+}
+
+.message-time {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+}
+
+.message-text p {
+  margin: 0;
+}

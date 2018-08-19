@@ -1,3 +1,6 @@
 Rails.application.routes.draw do
-  root to: "page#home"
+  root to: "chat#show"
+
+  get  "/login", to: "auth#new"
+  post "/login", to: "auth#create"
 end
