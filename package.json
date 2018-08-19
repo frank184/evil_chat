@@ -10,12 +10,12 @@
       "eslint",
       "git add"
     ],
-    "frontend/**/*.js": [
+    "app/client/**/*.js": [
       "prettier --write",
       "eslint",
       "git add"
     ],
-    "frontend/**/*.css": [
+    "app/client/**/*.css": [
       "prettier --write",
       "stylelint --fix",
       "git add"
